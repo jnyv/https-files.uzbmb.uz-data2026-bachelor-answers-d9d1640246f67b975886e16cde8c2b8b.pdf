@@ -1,0 +1,18 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Documents
+*.md text eol=lf
+*.txt text eol=lf
+
+# Code
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Binary files
+*.pdf binary
+*.zip binary
+*.gz binary
